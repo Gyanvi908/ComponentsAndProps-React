@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.navbarContainer{
+    
+    display: flex;
+    /* grid-template-columns: repeat(3,1fr); */
+    background-color: white;
+    margin-top: 10px;
+    justify-content: space-around;
+    align-content: center;
+}
+.logo{
+    margin-top: 5px;
+    font-size: 1.3rem;
+    color: black;
+}
+.sublogo{
+    display: inline-block;
+    color:rgb(24, 206, 185);
+    font-size: 2rem;
+}
+.links{
+    margin-top: 5px;
+}
+.links a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 7px;
+    color:black;
+    font-size: 1.5rem;
+}
+a:hover{
+    cursor: pointer;
+    color:rgb(49, 236, 180);
+}
+.fa-brands{
+    margin:7px;
+}
+.fa-facebook{
+    color:#1082e6;
+    font-size: 1.2rem;
+}
+.fa-twitter{
+    color:#04d3f3;
+    font-size: 1.2rem;
+}
+.fa-github{
+    /* color:rgb(255, 0, 98); */
+    font-size:1.2rem;
+}
+.icons{
+    margin-top: 5px;
+}
+.icons .fa-brands:hover{
+    cursor: pointer;
+    transform: scale(2);
+}
+@media screen and (max-width:430px) {
+    .links,.icons{
+        display: none;
+    }
+    .navbarContainer{
+        display: flex;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-between;
+        font-size: 30px;  
+    }
+    .logo{
+        margin-top: 5px;
+        font-size: 30px;
+        color: black;
+        display: flex;
+        align-content: center;
+    }
+    .sublogo{
+        display: inline-block;
+        color:rgb(24, 206, 185);
+        font-size: 30px;
+    }
+    .threedot i{
+        font-size: 30px;
+        margin-right: 5px;
+        color:rgb(24, 206, 185);
+        display: flex;
+        align-content: center;
+    }
+
+}
+@media screen and (min-width:767px){
+    .threedot{
+        display: none;
+    }
+}

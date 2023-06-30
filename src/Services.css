@@ -1,0 +1,45 @@
+
+.servicesCardContainer{
+    width:100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.mainServicesContainer{
+    background-color:#dcd5d581;
+    /* display: grid;
+    justify-content: center;
+    align-content: center; */
+    
+
+}
+.servicesHeading{
+    color:black;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.servicesSubHeading{
+    display: inline-block;
+    font-size: 2rem;
+    color:rgb(6, 222, 242);
+}
+@media screen and (max-width:430px){
+    .servicesCardContainer{
+        width:100vw;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .servicesHeading{
+    color:black;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.servicesSubHeading{
+    display: inline-block;
+    font-size: 30px;
+    color:rgb(6, 222, 242);
+}
+}

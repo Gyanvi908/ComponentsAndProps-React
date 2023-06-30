@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.mainTourCardContainer{
+    width: 30vw;
+    background-color: rgba(255, 255, 255, 0.855);
+    /* border-radius: 10px; */
+    margin:20px;
+    box-shadow: 3px 3px rgba(154, 152, 152, 0.807);
+}
+.TourCardContainer_1{
+    width: 30vw;
+}
+.TourCardContainer{
+    /* background-image: url(./images/tour-1.jpeg); */
+    height: 35vh;
+    width: 30vw;
+    background-size: cover;
+    background-repeat: none;
+    position: relative;
+}
+.tourImg{
+    width: 30vw;  
+}
+.date{
+    padding: 5px;
+    display: inline-block;
+    background-color: rgba(21, 238, 238, 0.793);
+    position: absolute;
+    left:0;
+    top:0;
+}
+.TourCardContainer_1{
+    padding:20px;
+}
+.TourCardContainerBottom{
+    width: 30vw;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    justify-content: space-between;
+    align-content: center;
+}
+.Flag{
+    align-self: center;
+    color:rgba(3, 255, 255, 0.889);
+    display: flex;
+    /* justify-content: center; */
+    align-content: center;
+    text-align: center;
+}
+.Cost h4{
+    color: rgba(128, 125, 125, 0.867);
+    font-weight: 40;
+}
+@media screen and (max-width:430px){
+
+    .mainTourCardContainer{
+        width: 50vw;
+        background-color: rgba(255, 255, 255, 0.855);
+        /* border-radius: 10px; */
+        margin:5px;
+        box-shadow: 1px 1px rgba(154, 152, 152, 0.807);
+    }
+    .TourCardContainer_1{
+        width:50vw;
+    }
+    .TourCardContainer{
+        /* background-image: url(./images/tour-1.jpeg); */
+        height: 25vh;
+        width: 50vw;
+        background-size: cover;
+        background-repeat: none;
+        position: relative;
+    }
+    .tourImg{
+        height:25vh;
+        width:50vw;
+    }
+    .date{
+        padding: 1px;
+        display: inline-block;
+        background-color: rgba(21, 238, 238, 0.793);
+        position: absolute;
+        left:0;
+        top:0;
+    }
+    .TourCardContainer_1{
+        padding:5px;
+    }
+    .TourCardContainerBottom{
+        width: 50vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-between;
+        align-content: center;
+    }
+}

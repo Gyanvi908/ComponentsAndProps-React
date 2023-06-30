@@ -1,0 +1,27 @@
+.featureHeading{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color:black;
+    font-size: 2rem;
+    text-align: center;
+}
+.featureSubHeading{
+    color:rgba(32, 225, 225, 0.889);
+    display: inline-block;
+    font-size:2rem;
+}
+.mainFeatureContainer{
+    display: grid;
+    justify-content: center;
+}
+.featureContainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+@media screen and (max-width:430px){
+    .featureContainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

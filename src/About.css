@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+.mainAboutContainer{
+    background-color: #313131;
+    text-align: center;
+    height: 40vh;
+}
+.aboutLinks a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color:white;
+    margin: 5px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.aboutIcons i{
+    color:white;
+    display: inline-block;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+.Copyright p{
+    color:white;
+    font-size: 1.2rem;
+    /* margin-bottom: 90px; */
+}
+

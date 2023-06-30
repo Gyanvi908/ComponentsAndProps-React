@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.imgTour{
+    width:25vw;
+    height: 25vh;
+}
+@media screen and (max-width:430px) {
+    .imgTour{
+        width:50vw;
+        height: 50vh;
+    }
+
+}

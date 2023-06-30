@@ -1,0 +1,8 @@
+.mainSection{
+
+}
+@media screen and (min-width:770px) and (max-width:1025px){
+    .mainSection{
+        width:100vw;
+    }
+}

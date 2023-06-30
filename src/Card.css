@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainCardContainer{
+    /* width: 400px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    margin: 10px;
+}
+.fa-solid{
+    text-align: center;
+    font-size: 5rem;
+}
+h3{
+    font-size: 1.3rem;
+    margin-bottom: 9px;
+}
+.iconCenter{
+    margin: 5px;
+    background-color: rgba(35, 185, 180, 0.7);
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border-radius: 5px;
+}
